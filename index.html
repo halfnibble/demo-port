@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Demo Portfolio</title>
+        <style>
+            nav ul {
+                list-style: none;
+                padding: 0;
+                background-color:darkslateblue;
+                padding: 2px 4px;
+
+            }
+            nav ul li {
+                display: inline-block;
+            }
+            nav ul li a {
+                display: inline-block;
+                padding: 6px 8px;
+                color: white;
+                text-decoration: none;
+            }
+            nav ul li a:hover {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#directions">Directions</a>
+                </li>
+                <li>
+                    <a href="#make-nav">Make Nav</a>
+                </li>
+                <li>
+                    <a href="#make-hash-links">Hash Links</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>My Portfolio</h1>
+
+        <h2 id="directions">DIRECTIONS</h2>
+        <p>You may choose to use your personal portfolio website code from the introductory course for this assignment, if you wish. Otherwise, if you would rather start from scratch, you can do that, too; just copy the starter code in this REPL.</p>
+
+        <h2 id="make-nav">Make Your nav Element</h2>
+        <p>The nav element functions much like a div or another container element. Using the nav element as the container makes our HTML easier to read, easier to style, and (as we will learn about more later in the course) easier to interpret for screen readers.</p>
+
+        <h2 id="make-hash-links">Make Your Hash Links</h2>
+        <p>We have often used a tags to link to other pages or even external websites, but they can also be used to link to other places on the same page. If you have not done this before, do not worry-it is pretty simple.</p>
+
+        <p>First, decide where on the page you want the link to go to when it is clicked. In the starter code below, we have selected some div elements and added a unique id field to them. In the starter code, selected divs have the ids: about, projects, and contact. If you are using your own portfolio code, go ahead and add similar divs/ids.</p>
+
+        <p>Second, in the a tag in the nav, where we have an empty href, put a # symbol, followed by the id you want to link to on the page. For example, if you have a div like <div id="my-projects"> then the hash link to it would look like:</p>
+    </body>
+</html>
